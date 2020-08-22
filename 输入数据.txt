@@ -1,0 +1,11 @@
+Users:
+pear 1234 pear@live.cn 15017500000
+apple 12345 apple@163.com  13612345678
+banana 123456 banana@qq.com 13487654321
+lemon 1234567 lemon@sysu.com 12345678910
+
+Meetings:
+meeting1 2020-08-20/12:00 2020-08-20/13:00  pear(Sponsor)     banana,apple(Participators)
+meeting2 2020-08-20/13:00 2020-08-21/13:00 lemon(Sponsor)   pear,apple(Participators)
+meeting3 2020-08-01/10:00 2020-08-02/12:00 pear(Sponsor)    lemon,apple,banana(Participators)
+meeting4 2020-09-01/10:00 2020-09-03/12:00 banana(Sponsor)    lemon,pear(Participators)
