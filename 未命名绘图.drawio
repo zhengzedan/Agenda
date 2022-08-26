@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T05:53:00.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63" etag="6736BpVKzIY-4qRBmGgo" version="20.2.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-26T07:56:50.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63" etag="AICXYrcwr08-Xde-XN6y" version="20.2.6" type="github" pages="2">
   <diagram id="A9Q-UcqaSSHVSJC6LxS7" name="第 1 页">
     <mxGraphModel dx="3874" dy="1157" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="1">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="-1380" y="20" width="450" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O27Q3A0dz7naOp8tt0iU-43" value="&lt;b&gt;Refresh the page to get subapps and versions on different servers&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;shadow=0;glass=0;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="-1380" y="70" width="410" height="30" as="geometry" />
+          <mxGeometry x="-1380" y="70" width="343" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O27Q3A0dz7naOp8tt0iU-51" value="" style="edgeStyle=orthogonalEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;fontSize=19;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;" parent="1" source="O27Q3A0dz7naOp8tt0iU-41" target="O27Q3A0dz7naOp8tt0iU-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -54,13 +54,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uOYiUQgheM6uBUmsLffs-1" value="" style="edgeStyle=orthogonalEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;fontSize=19;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;" parent="1" target="O27Q3A0dz7naOp8tt0iU-29" edge="1">
+        <mxCell id="uOYiUQgheM6uBUmsLffs-1" value="" style="edgeStyle=orthogonalEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;fontSize=19;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#000000;" parent="1" target="O27Q3A0dz7naOp8tt0iU-29" edge="1" source="O27Q3A0dz7naOp8tt0iU-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-980" y="80" as="sourcePoint" />
             <mxPoint x="-870" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-740" y="80" />
-              <mxPoint x="-740" y="175" />
+              <mxPoint x="-692" y="80" />
+              <mxPoint x="-692" y="175" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -91,8 +91,8 @@
         <mxCell id="uOYiUQgheM6uBUmsLffs-10" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Save the data to the cache&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;" parent="1" vertex="1">
           <mxGeometry x="-460" y="220" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uOYiUQgheM6uBUmsLffs-11" value="&lt;b&gt;Hard refresh and&amp;nbsp;customize cache valid time&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;shadow=0;glass=0;fillStyle=auto;" parent="1" vertex="1">
-          <mxGeometry x="-1385" y="130" width="410" height="30" as="geometry" />
+        <mxCell id="uOYiUQgheM6uBUmsLffs-11" value="&lt;b&gt;Hard refresh and&amp;nbsp;customize cache expiration time&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;shadow=0;glass=0;fillStyle=auto;" parent="1" vertex="1">
+          <mxGeometry x="-1385" y="130" width="335" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uOYiUQgheM6uBUmsLffs-13" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=19;fontColor=#000000;strokeColor=#000000;elbow=vertical;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="uOYiUQgheM6uBUmsLffs-11" target="O27Q3A0dz7naOp8tt0iU-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -100,29 +100,19 @@
             <mxPoint x="-770" y="150" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-940" y="153" />
-              <mxPoint x="-840" y="200" />
+              <mxPoint x="-825" y="206" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="uOYiUQgheM6uBUmsLffs-14" value="&lt;b&gt;Get the current version of subapps on different servers&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;shadow=0;glass=0;fillStyle=auto;" parent="1" vertex="1">
           <mxGeometry x="-1380" y="193" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uOYiUQgheM6uBUmsLffs-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=19;fontColor=#000000;strokeColor=#000000;elbow=vertical;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="uOYiUQgheM6uBUmsLffs-14" target="O27Q3A0dz7naOp8tt0iU-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-970" y="190" as="sourcePoint" />
-            <mxPoint x="-1350" y="380" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-710" y="460" />
-              <mxPoint x="-1360" y="590" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="uOYiUQgheM6uBUmsLffs-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=19;fontColor=#000000;strokeColor=#000000;elbow=vertical;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.223;entryY=0.926;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uOYiUQgheM6uBUmsLffs-14" target="O27Q3A0dz7naOp8tt0iU-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-830" y="300" as="sourcePoint" />
             <mxPoint x="-780" y="250" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-830" y="250" />
+              <mxPoint x="-830" y="264" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -170,19 +160,16 @@
           <mxGeometry x="-770" y="400" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uOYiUQgheM6uBUmsLffs-31" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Get the data from the cache first&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-840" y="60" width="177" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="uOYiUQgheM6uBUmsLffs-32" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Get the data from localStorage first&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-1310" y="530" width="340" height="30" as="geometry" />
+          <mxGeometry x="-846" y="46" width="177" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uOYiUQgheM6uBUmsLffs-33" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;If there is no data in the cache, get it from the server (S3 api)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-630" y="290" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uOYiUQgheM6uBUmsLffs-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Empty cache and get data from AWS again&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-960" y="140" width="220" height="30" as="geometry" />
+        <mxCell id="uOYiUQgheM6uBUmsLffs-34" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Empty cache and get data from AWS again, modify cache expiration time&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-926" y="143" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="uOYiUQgheM6uBUmsLffs-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;If there is no data in localStorage, get it from the backend&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-896.5" y="230" width="290" height="30" as="geometry" />
+        <mxCell id="uOYiUQgheM6uBUmsLffs-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Get it from the backend. If bamboo hasn&#39;t sent a post request to the backend, the default config version is &quot;stable&quot;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fillStyle=auto;fontSize=19;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-973" y="254" width="326.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uOYiUQgheM6uBUmsLffs-37" value="&lt;h1&gt;&lt;font style=&quot;font-size: 34px;&quot;&gt;Vantage Webapp Version Management System&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;glass=0;fillStyle=hatch;fontSize=16;fillColor=#99CCFF;" parent="1" vertex="1">
           <mxGeometry x="-1351" y="-151" width="780" height="60" as="geometry" />
